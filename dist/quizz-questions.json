@@ -1,0 +1,74 @@
+{
+    "title":"Descubra com qual vertente política suas idéias se assemelham.",
+    "questions":[
+        {
+        "id":1,
+        "question":"Qual é a sua opinião sobre o papel do Estado na economia?",
+        "options":[
+            {"id":2, "name": "O Estado deve ter o controle total sobre a economia, com impostos altos e maior imposto sobre os ricos. Para garantir a igualdade e ajudar na luta de classes.", "alias":"A"},
+            {"id":1, "name": "O Estado deve ter um papel limitado na economia, deve cobrar impostos baixos e deixar que a classe média empreenda e prospere.", "alias":"C"},
+            {"id":4, "name": "O Estado deve ter um papel regulatório mínimo na economia, garantindo a livre concorrência e evitando práticas anticompetitivas. Dito isso, o livre mercado é capaz de alocar recursos de forma mais eficiente do que o Estado.", "alias": "E"},
+            {"id":3, "name": "O Estado não deve interferir em nada na economia, afinal a tendência do estado é sempre crescer e controlar tudo. O mercado atravéz da população deve se auto regular de maneira totalmente orgânica e descentralizada.", "alias": "F"}
+        ]
+    },
+    {
+        "id":2,
+        "question":"Qual é sua opinião sobre a liberdade de expressão e de imprensa?",
+        "options":[
+            {"id":1, "name": "O governo atravéz de boas políticas deve criminalizar fakenews e discurso de ódio. A liberdade é limitada quando alguém é ofendido, ou quando promove idéias ruins para a sociedade.", "alias": "A"},
+            {"id":2, "name": "O governo não deve interferir no debate público, pois uma idéia é combatida com outra idéia e não com censura governamental. O melhor remédio para fakenews é mais liberdade para que as notícias falsas sejam desmentidas. Porém, há exeções à liberdade de expressão, como por exemplo: Propagandas à regimes genocidas, que levam à ditaduras e ideias racistas.", "alias":"C"},
+            {"id":3, "name": "A liberdade de expressão é de extrema importância. Mas não deve ser vista como um fim em si mesma, mas como um meio para alcançar a ordem, a justiça, a verdade e a prosperidade.", "alias": "E"},
+            {"id":4, "name": "A liberdade de expressão deve se estender a qualquer tipo de discurso, incluindo aqueles que possam ser considerados ofensivos, como discursos de ódio ou propaganda racista. Se o estado regular o discurso, mesmo que negativo ele tenderá a regular ideias que se opoem à ideologia do partido vigente.","alias": "F"}
+        ]
+    },
+    {
+        "id":3,
+        "question":"O que você pensa sobre política?",
+        "options":[
+            {"id":2, "name": "A política é o único meio de melhorar a sociedade. Fazendo boas políticas públicas podemos chegar à igualdade e melhorar a vida das pessoas.", "alias": "A"},
+            {"id":3, "name": "A política é um importante meio para auxiliar e ajudar a sociedade a crescer e se desenvolver. Devemos sempre focar nossos esforços à questãos importantes como à saúde, educação e segurança por exemplo.", "alias":"C"},
+            {"id":4, "name": "A política não deve ser vista como um instrumento de mudança radical, ou de experimentos sociais, mas sim como um meio de garantir a continuidade e aperfeiçoamento gradual das instituições, da tradição e da sociedade como um todo.", "alias": "E"},
+            {"id":1, "name": "A política deve ser feita por meio de competição entre empresas privadas para oferecer serviços de qualidade a preços acessíveis.", "alias": "F"}
+        ]
+    },
+    {
+        "id":4,
+        "question":"Qual a sua opinião sobre religião",
+        "options":[
+            {"id":3, "name": "A religião é um instrumento de alienação usada para controlar a mente das pessoas pela classe dominante.", "alias":"A"},
+            {"id":1, "name": "Você pode ter a religião que você quiser, a crença que você quiser, desde que aquilo te faça bem. Respeitando sempre a diversidade.", "alias":"C"},
+            {"id":2, "name": "A religião é muito importante para uma sociedade ter como base. Ela que oferece a orientação moral, estabilidade social e uma sensação de propósito e significado na vida.", "alias": "E"},
+            {"id":4, "name": "Todos devem ser livres para ter a sua própria religião, ou não ter nenhuma. Desde que não viole a propriedade de outro.", "alias":"F"}
+        ]
+    },
+    {
+        "id":5,
+        "question":"O que você pensa sobre a propriedade privada?",
+        "options":[
+            {"id":1, "name": "Propriedade privada serve como meio de exploração dos trabalhadores pelos proprietários . Deve-se coletivar os meios de produção, por meio do controle e gestão por parte da sociedade como um todo, representada pelo Estado ou por organizações coletivas.", "alias":"A"},
+            {"id":3, "name": "A propriedade privada é um direito essencial. Assim sendo, ela deve ser protegida pelo Estado.", "alias":"C"},
+            {"id":4, "name": "Cada pessoa é responsável pelo seu próprio bem-estar e deve ser livre para usar seus recursos como achar melhor. A propriedade privada é uma forma de garantir a continuidade das tradições e da cultura de um povo.", "alias": "E"},
+            {"id":2, "name": "A propriedade privada é um direito natural e deve ser absoluta. O livre mercado e a competição são as melhores formas de organizar a sociedade, sem a intervenção do Estado.", "alias":"F"}
+        ]
+    },
+    {
+        "id":6,
+        "question":"Qual a sua visão sobre Estado Laico?",
+        "options":[
+            {"id":1, "name": "O Estado não deve ter ligações com religião. As decisões políticas devem ser tomadas com base em critérios seculares e racionais, em vez de crenças religiosas.", "alias":"A"},
+            {"id":2, "name": "A defesa do Estado laico é uma forma de proteger as liberdades individuais e de evitar a imposição de crenças religiosas por meio da coerção estatal.", "alias":"C"},
+            {"id":3, "name": "A religião como base de nossa sociedade é um elemento fundamental da cultura e da moralidade. O Estado laico excluindo a religião, exclui a moral e a autoridade suprema dos poderes.", "alias": "E"},
+            {"id":4, "name": "O Estado é uma organização criminoza que impõe suas vontades, e rouba a população atravéz de coersões e pela força. Independente se o Estado é laico ou não.", "alias":"F"}
+        ]
+    }
+       
+   ],
+   "results": {
+        "A": "Comunismo/Socialismo: A posição política de um comunista é definida pela crença na abolição da propriedade privada e na criação de uma sociedade igualitária, sem classes sociais, onde os meios de produção são controlados coletivamente pelos trabalhadores. Os comunistas defendem a luta de classes e a revolução para alcançar seus objetivos políticos e econômicos, e geralmente apoiam o controle estatal da economia e a planificação centralizada.",
+        "B": "Progressismo: A posição política de um progressista é definida pela crença na melhoria contínua da sociedade e na promoção de mudanças progressivas em áreas como os direitos civis, sociais e ambientais. Os progressistas geralmente defendem a intervenção do Estado para corrigir desigualdades e injustiças sociais, e apoiam políticas públicas que visam promover a igualdade de oportunidades, a diversidade, a tolerância e a proteção dos direitos individuais. Eles tendem a valorizar o pensamento crítico, a ciência e a tecnologia como ferramentas para o progresso social.",
+        "C": "Liberalismo: A posição política de um liberal é definida pela crença na liberdade individual, na proteção dos direitos individuais e na limitação do poder do Estado. Os liberais defendem a economia de mercado, a livre iniciativa, a competição e a propriedade privada como formas de estimular o desenvolvimento econômico e garantir a liberdade individual. Eles também apoiam a liberdade de expressão, a igualdade de oportunidades, a educação e a cultura como formas de promover a democracia e a justiça social.",
+        "D": "NeoConcervadorismo: A posição política de um neoconservador é definida pela crença na necessidade de promover a democracia e a liberdade individual por meio do uso da força quando necessário, especialmente no âmbito internacional. Os neoconservadores apoiam a defesa da nação, a intervenção militar para proteger interesses nacionais, a política externa agressiva e o fortalecimento das instituições democráticas. Eles também defendem valores conservadores, como a liberdade individual, a família tradicional e a moralidade cristã. Além disso, os neoconservadores valorizam o livre mercado, a iniciativa privada e a limitação do poder do Estado.",
+        "E": "Conservadorismo clássico: A posição política de um conservador clássico é definida pela crença na preservação das tradições, valores e instituições que foram desenvolvidas ao longo da história e que são considerados fundamentais para a sociedade. Os conservadores clássicos defendem a ordem social e a estabilidade, bem como a proteção das liberdades individuais e dos direitos de propriedade. Eles são favoráveis à economia de mercado e à livre iniciativa, mas também acreditam que o Estado deve desempenhar um papel limitado na vida das pessoas. Além disso, os conservadores clássicos tendem a ser céticos em relação às mudanças radicais e apoiam a gradualidade e a evolução orgânica da sociedade.",
+        "F": "Anarcocapitalismo (Ancap): A posição política de um ancap, ou anarco-capitalista, é caracterizada pela defesa da completa ausência de governo e do livre mercado irrestrito. Eles acreditam que todas as formas de coerção e agressão, incluindo o governo, devem ser eliminadas em favor de acordos voluntários entre indivíduos. Os anarcocapitalistas apoiam a propriedade privada, a livre concorrência e a auto-regulação dos mercados, argumentando que isso resulta em maior eficiência e bem-estar social. Eles rejeitam a ideia de que o estado tem o monopólio da justiça, defendendo que a resolução de conflitos deve ser feita por tribunais privados."
+   }    
+}
