@@ -1,4 +1,4 @@
-<h1 style:"font-style:bold"> Heavy buZZZ </h1>
+##  Heavy buZZZ :speech_balloon:
 
 ### _try it: https://truelanz.github.io/heavy-buzzz/_
 
@@ -8,6 +8,6 @@
 </p>
 
 
-#### A page created for fun, I really love to make it. I'll to add more things and tests, soon..
+- A page created for fun, I really love to make it. I'll to add more things and tests, soon..
 
-created by: https://github.com/truelanz
+  -  created by: [truelanz](https://github.com/truelanz)
