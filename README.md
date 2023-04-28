@@ -2,9 +2,10 @@
 
 ### _try it: https://truelanz.github.io/heavy-buzzz/_
 
-![Imgur](https://i.imgur.com/kuilCw3.jpg) 
+<p>
+  <img style="width: 650px; height: 380px;" src="https://i.imgur.com/kuilCw3.jpg" alt="pc_version_img">
+  <img style="height: 380px; width: 120;" src="https://i.imgur.com/BQc8B5a.gif" alt="cel_version_git">
+</p>
 
-
-<a href="https://imgur.com/BQc8B5a"><img src="https://i.imgur.com/BQc8B5a.gif" title="source: imgur.com" /></a>
 
 #### A page created for fun, I really love to make it. I'll to add more things and tests, soon..
