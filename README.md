@@ -1,4 +1,4 @@
-# Heavy buZZZ
+<h1 style:"font-style:bold"> Heavy buZZZ </h1>
 
 ### _try it: https://truelanz.github.io/heavy-buzzz/_
 
