@@ -1,0 +1,83 @@
+.menu {
+    border: 1px solid rgb(13, 22, 92);
+    background-color: rgb(32, 35, 57);
+    padding: .8rem;
+}
+
+.menu > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 20px;
+    gap: 15px;
+}
+
+.menu > ul > li {
+    list-style: none;
+}
+
+/* home */
+.menu_home {
+    position: absolute;
+    left: 30px;
+}
+
+/* home button */
+.menu_home > a > button {
+    text-align: center;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    font-family: 'Righteous', cursive;
+
+    width: 65px;
+    height: 25px;
+
+    cursor: pointer;
+}
+
+.menu_home > a :active {
+    position: relative;
+    top: 2px;
+}
+
+/* testes button */
+.menu_testes > a > button {
+    text-align: center;
+    background-color: rgb(44, 87, 228);
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    font-family: 'Righteous', cursive;
+
+    width: 65px;
+    height: 25px;
+
+    cursor: pointer;
+}
+
+.menu_testes > a :active {
+    position: relative;
+    top: 2px;
+}
+
+/* github button */
+.menu_github > a > button {
+    text-align: center;
+    background-color: rgb(51, 137, 152);
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    font-family: 'Righteous', cursive;
+
+    width: 65px;
+    height: 25px;
+
+    cursor: pointer;
+}
+
+.menu_github > a :active {
+    position: relative;
+    top: 2px;
+}

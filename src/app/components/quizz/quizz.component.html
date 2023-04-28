@@ -1,0 +1,42 @@
+
+<div class="container">
+    <div class="quizz">
+
+        <!-- <button style="color: aqua;" (click)="changeResultColor()">BUTTON</button> -->
+    
+        <div class="quizz_logo">
+            <h1 class="quizz_logo-main">heavy buZZZ</h1>
+        </div>
+            
+        <div class="quizz_title">
+            <h1>{{title}} <span class="quizz_title-arrow"> &#8623; </span> </h1>
+        </div>
+    
+        <div *ngIf="!fineshed"
+        class="quizz_questions">
+            <h3>{{questionSelected.question}}  </h3>
+        </div>
+    
+        <div *ngIf="!fineshed"
+        class="quizz_options">
+            <button *ngFor="let option of questionSelected.options; let i = index"
+            (click)="userChoose(option.alias)"
+            class="quizz_options-btn"
+            >
+                {{option.name}}
+            </button>
+        </div>
+        
+        <div *ngIf="fineshed"
+        class="quizz_results" 
+        [style]="changeResultColor()" 
+        style="border-radius: 15px;"
+        > 
+            <h1>A sua posição política se assemelha ao:</h1>
+            <p>{{answerSelected}}</p>
+            <img [src]="getImagemUrl(MoreFrequencyAnswer)" alt="img">
+        </div>
+        
+    </div>
+</div>
+

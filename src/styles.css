@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Fjalla+One&family=Handlee&family=Inconsolata:wght@300;600;900&family=Indie+Flower&family=Righteous&family=Russo+One&family=Titan+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: antiquewhite;
+}
+
+body{
+    height: 100vh;
+    background-color: #100f13;
+    background-image: linear-gradient(to bottom, #100F13, #2f2a3e);
+}

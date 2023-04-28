@@ -1,0 +1,56 @@
+@media screen and (min-width: 100px) and (max-width: 914px) {
+
+    .quizz{
+        width: 88%;
+        margin: auto;
+        
+    }
+
+    .quizz_logo {
+        font-size: 45px;
+    }
+
+    .quizz_title {
+        /* border: 1px solid green; */
+        
+        width: 320px;
+        font-size: 20px;
+    }
+
+    .quizz_questions {
+        border: 1px solid blue;
+        width: 320px;
+        font-size: 16px;
+    }
+
+    .quizz_options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 20px;
+
+        
+    }
+
+    .quizz_options-btn {
+        height: 200px;
+        font-family: 'Inconsolata', monospace;
+        font-size: 15px;
+    }
+
+    .quizz_options-btn:hover {
+        background-color: #34fa5c20;
+        transform: scale(1.06);
+        transition: all 0.5s;
+    }
+
+    .quizz_results {
+        height: 100%;
+        width: 100%;
+    }
+
+    .quizz_results > h1 {
+        font-size: 28px;
+    }
+}

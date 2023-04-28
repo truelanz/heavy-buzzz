@@ -1,0 +1,35 @@
+div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: aliceblue;
+
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+
+    background: linear-gradient(to right, red, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration-color: transparent;
+    animation: font-gradient 1.5s infinite alternate;
+    background-size: 300% auto;
+    /* adicionado para a animação */
+}
+
+@keyframes font-gradient {
+    0% {
+        background-position: 0% 0;
+    }
+
+    100% {
+        background-position: 100% 0;
+    }
+}
